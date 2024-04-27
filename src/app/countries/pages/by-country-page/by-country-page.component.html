@@ -1,0 +1,15 @@
+<h2>capital</h2>
+<hr>
+<div class="row">
+  <div class="col">
+    <!--SEARCH BOX-->
+    <shared-search-box (onValue)="searchByCountry($event)"></shared-search-box>
+  </div>
+</div>
+<div class="row">
+  <div class="col">
+    <hr>
+    <countries-table [countries]="countries"></countries-table>
+
+  </div>
+</div>
